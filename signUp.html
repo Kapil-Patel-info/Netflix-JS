@@ -12,15 +12,18 @@
       <img id="netflix" height="200px" src="./Images/logo.png" alt="" />
 
       <div class="signUp-form">
-        <form onsubmit=" return signUp()">
+
+        <form action="Login.html" onsubmit="return signUp()">
+
           <h1 id="h1-signup">Sign Up</h1>
           <br /><br />
-          <input type="text" placeholder="Enter email " id="email" /> <br />
-          <br />
-          <input type="password" placeholder="Enter password" id="password" />
+          <input type="text" placeholder="Enter your email " id="email" /> 
+
+          <input type="password" placeholder="Enter your password" id="password" />
           <br /><br />
 
-          <button>Sign Up</button>
+          <button type="submit">Sign Up</button><br><br>
+          <a class="link" href="Login.html">Login</a>
         </form>
 
       </div>
